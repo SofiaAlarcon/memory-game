@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  display: flex;
+  background-color: rgb(237, 230, 196);
+  /*display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh;*/
 }
 
 

@@ -8,13 +8,11 @@ export default function Home (){
     const [path, setLocation] = useLocation()
 
     return(
-        <>
-            <div className="container-home">
-                <h1>Juego Juego</h1>
-                <img className="logo-home" src={logo}/>
-                <button onClick={() => setLocation("/Game")}>jugar</button>
-                <button>links</button>
-            </div>
-        </>
+        <div className="container-home">
+            <h1>juego juego</h1>
+            <img className="logo-home" src={logo}/>
+            <button onClick={() => setLocation("/Game")}>jugar</button>
+            <button>links</button>
+        </div>
     )
 }
