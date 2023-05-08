@@ -1,0 +1,36 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+}
+
+h1{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(25, 5, 71);
+    color: rgb(45, 1, 87);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+    
+
+button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f27c15;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.logo-home{
+    width: 250px;
+    height: 250px;
+    border: 2px double rgb(123, 93, 63);
+    border-radius: 5px;
+}
