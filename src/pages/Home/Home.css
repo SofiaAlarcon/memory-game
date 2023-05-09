@@ -22,10 +22,12 @@ button{
     padding: 0.6em 1.2em;
     font-size: 1em;
     font-weight: 500;
-    font-family: inherit;
-    background-color: #f27c15;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: rgb(17, 0, 41);
+    background-color: #ec862c;
     cursor: pointer;
-    transition: border-color 0.25s;
+    /*transition: border-color 0.25s;*/
+    box-shadow: 1px 1px rgb(51, 51, 51) ;
 }
 
 .logo-home{
