@@ -54,6 +54,7 @@ p{
 h3{
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size:25px;
-    color: rgb(24, 8, 66);
+    /*color: rgb(24, 8, 66);*/
+    color:rgb(128, 102, 192);
     box-shadow: 2px rgb(19, 6, 48);
 }
