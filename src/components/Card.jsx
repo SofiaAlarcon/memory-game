@@ -26,6 +26,7 @@ export default function Card(props) {
 }
 
 const style = {
+    /* acá tengo que limitarle un tamaño así los elementos hijos (Reverse o la img) no terminan siendo más grandes que ella*/
     card: {
         width:"150px",
         height: "200px",
