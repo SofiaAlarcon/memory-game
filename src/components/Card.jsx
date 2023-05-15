@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Reverse from "./Reverse.jsx";
-import "./Card.css"
+
 
 export default function Card(props) {
     const [isUpward, setIsUpward]= useState(props.isUpward)
@@ -15,12 +15,35 @@ export default function Card(props) {
     }
     
     return(
-        <div className="card">
+        <div style={style.card}>
             { isUpward
-                ? <img className="image" src={props.image}/>
+                ? <img style={style.image} src={props.image}/>
                 : <Reverse handleClick={handleClick}></Reverse>
             }
         </div>
 
     )
 }
+
+const style = {
+    card: {
+        width:"150px",
+        height: "200px",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "rgb(222, 131, 39)",
+        border: "2px solid rgb(240, 141, 42)",
+        borderRadius: "5px",
+        boxShadow: "3px 2px rgb(76, 75, 75)"
+    },
+
+    image: {
+        width: "120px",
+        height:"120px",
+        borderRadius: "7px",
+        border: "2px double rgb(194, 105, 17)"
+    }
+}
+
