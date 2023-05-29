@@ -31,8 +31,8 @@ button{
 }
 
 .logo-home{
-    width: 250px;
-    height: 250px;
-    border: 2px double rgb(123, 93, 63);
+    width: 20%;
+    height: 20%;
+    border: 2px solid rgb(123, 93, 63);
     border-radius: 5px;
 }

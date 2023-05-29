@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import Game from './pages/Game/Game';
 import {Route} from 'wouter';
 
+
 function App() {
   
   return (

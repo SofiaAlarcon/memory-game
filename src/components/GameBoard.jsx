@@ -1,10 +1,11 @@
 import { cats } from "../services/CatData.js"
 import Card from "../components/Card.jsx"
 import { useState } from "react"
+/*import Counter from "./Counter.jsx"*/
 
 
 
-export default function GameBoard() {
+export default function GameBoard(props) {
     const [cards, setCards] = useState([])
 
     function saveId(card) {
@@ -25,6 +26,7 @@ export default function GameBoard() {
 
       if (cards[0].pair === cards[1].pair){
         console.log("yay")
+        /*props.increaseCounter()*/
         /* borrar los elementos del array*/
         cards.splice(0, cards.length)
         console.log(cards)
@@ -42,7 +44,6 @@ export default function GameBoard() {
     }
 
     return (
-        cats.map(card => <Card isUpward={card.isUpward} key={card.id} pair={card.pair} id={card.id} image={card.image} saveId={saveId} />)
-
+      cats.map(card => <Card isUpward={card.isUpward} key={card.id} pair={card.pair} id={card.id} image={card.image} saveId={saveId} />)
     )
 }

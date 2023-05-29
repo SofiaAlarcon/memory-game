@@ -18,7 +18,7 @@ export default function() {
                 <div className="modal">
                 <div className="overlay" onClick={toggleModal}></div>
                 <div className="modal-content">
-                    <h3>nombre del juego</h3>
+                    <h2>nombre del juego</h2>
                     <p>
                         texto 
                         texto 

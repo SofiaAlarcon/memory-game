@@ -51,10 +51,11 @@ p{
     font-size: 15px;
 }
 
-h3{
+h2{
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size:25px;
     /*color: rgb(24, 8, 66);*/
-    color:rgb(128, 102, 192);
-    box-shadow: 2px rgb(19, 6, 48);
+    color:rgb(112, 70, 218);
+    -webkit-text-stroke: 0.5px rgb(25, 5, 71);
+    /*box-shadow: 2px rgb(19, 6, 48);*/
 }
