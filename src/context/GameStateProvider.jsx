@@ -1,19 +1,16 @@
 import { createContext, useState } from 'react';
 
-//create a context, with createContext api
-export const CounterContext = createContext();
+export const GameStateContext = createContext();
 
-const CounterProvider = (props) => {
-        // this state will be shared with all components 
+const GameStateProvider = (props) => {
     const [counter, setCounter] = useState(0);
 
     return (
-                // this is the provider providing state
-        <CounterContext.Provider value={[counter, setCounter]}>
+        <GameStateContext.Provider value={[counter, setCounter]}>
             {props.children}
-        </CounterContext.Provider>
+        </GameStateContext.Provider>
     );
 };
 
 
-export default CounterProvider;
+export default GameStateProvider;
